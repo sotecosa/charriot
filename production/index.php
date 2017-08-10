@@ -378,7 +378,7 @@ $sql.=' AND pp.active = 1 ';
 
 
     $sql .= $db->order($sortfield, $sortorder);
-    //echo $sql;
+    echo $sql;
     $result = $db->query($sql);
 
     $param = "search_product=$search_product&search_material_type=$search_material_type&search_entrepot=$search_entrepot";
